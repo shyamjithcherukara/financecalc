@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://fincalc.cleanstack.dev/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow admin or private areas (if any)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow important pages
+Allow: /sip
+Allow: /emi
+Allow: /fd
+Allow: /lumpsum
+Allow: /ppf
+Allow: /epf
+Allow: /swp
+Allow: /rd
+Allow: /nps
+Allow: /stepup-sip
+Allow: /inhand-old
+Allow: /inhand-new 
